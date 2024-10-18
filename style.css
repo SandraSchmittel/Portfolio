@@ -1,0 +1,394 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f8f8f8; */
+    color:palevioletred;
+    background-color: blanchedalmond;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.whatsapp-icon img {
+    width:60px; 
+    height: auto;
+	margin-left: 1150px;
+
+}
+
+.linkedin-icon img {
+    width: 50px; 
+    height: auto;
+	margin-left: 30px;
+}
+
+.email-icon img {
+    width: 50px; 
+    height: auto;
+	margin-left: 30px;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container h5 {
+   font-size: 32px;
+}
+
+header {
+    background-color: #3b5998; 
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+#projects {
+    /* background-color: #fff; */
+    padding: 50px 0;
+    background-color: blanchedalmond;
+}
+ .container h2 {
+    font-size: 58px;
+    text-align: center;
+    color: #3b5998;
+    background-color: palevioletred;
+    border-radius: 29px;
+    margin-top: -20px;
+   
+  }
+
+  .projeto {
+    display: inline-block;
+    width: 45%; 
+    vertical-align: top; 
+    
+}
+
+.projeto img {
+    height: 500px;
+    width: 500px;
+    padding: 50px 50px;
+    margin-left: 90px;
+
+}
+
+.projeto p {
+    text-align: justify;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 140px;
+    width: 400px;
+
+}
+
+.projeto h3 {
+    margin-left: 140px;
+    font-size: 32px;
+}
+
+  
+
+
+.project {
+    border-bottom: 1px solid #ddd;
+    padding: 50px 0;
+}
+
+.project h3 {
+    color: #3b5998; 
+    font-size: 53px;
+}
+
+.project p {
+    color:palevioletred;
+    font-size: 30px;
+
+}
+
+.project img {
+    height: 500px;
+    width: 900px;
+    margin-left: 100px;
+}
+
+
+.meu-link {
+    color:  #3b5998; 
+    text-decoration: none;
+}
+
+.Estudo-de-Caso {
+
+}
+
+.Estudo-de-Caso h1 {
+    text-align: center;
+    font-size: 33px;
+    background-color: #fff;
+}
+
+.Estudo-de-Caso h2 {
+    margin-left: 23px;
+    background-color: #3b5998;
+    color: #fff;
+    width: 500px;
+    text-align: center;
+}
+
+.Estudo-de-Caso a {
+    margin-left: 500px;
+
+}
+
+.Estudo-de-Caso a::before {
+    content: ""; 
+    display: inline-block;
+    width: 40px; /* Ajuste conforme necessário para aumentar o tamanho */
+    height: 40px; /* Ajuste conforme necessário para aumentar o tamanho */
+    background-image: url(caminho/para/sua/imagem/mãozinha.png); 
+    background-size: contain;
+    margin-right: 5px; 
+}
+   
+
+.Estudo-de-Caso a::before {
+    content: "👋"; 
+    font-size: 40px; 
+    margin-right: 5px; 
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.Estudo-de-Caso img {
+    margin-left: 255px;
+}
+
+.Estudo-de-Caso p {
+    font-size: 23px;
+    margin-left: 30px;
+    text-align: justify;
+    background-color: #fff;
+}
+  
+
+
+
+
+.Barra-de-Pesquisa h1 {
+    background-color: #3b5998; 
+    font-size: 32px; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+.Barra-de-Pesquisa img {
+    max-width: 300%; 
+    height: auto; 
+    margin-left: 250px;
+}
+
+
+/* .formulario { */
+    /* margin-top: 30px; */
+    /* height: -50px;
+} */
+.Formulários h1 {
+    background-color: #3b5998;
+    font-size: 32px; 
+    padding: 10px; 
+    text-align: center;
+    
+}
+
+
+.Formulários img {
+    max-width: 100%; 
+    height: auto; 
+    margin-left: 250px;
+}
+
+.whatsapp-icon .linkedin-icon {
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.Links h1 {
+    background-color: #3b5998;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Links img {
+    margin-left: 650px;
+    
+}
+
+
+
+.Links a {
+    color:  #3b5998;
+    text-decoration: none; 
+    font-size: 32px; 
+   
+   
+    
+}
+
+
+.Links a:hover {
+    text-decoration: underline; 
+    
+}
+
+
+.Design-Grafico h1 {
+    writing-mode: vertical-rl; 
+    text-orientation: upright; 
+    margin-left: 20px; 
+    background-color: #3b5998;
+    font-size: 32px;
+   
+   
+}
+
+.Design-Grafico {
+    display: flex; 
+    align-items: center; 
+}
+
+.Design-Grafico img {
+    margin-left: 10px;
+    margin-top: -450px;
+}
+
+.Design-Grafico img {
+    margin-top: 30px;
+    width: 380px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color:palevioletred;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.formulario{
+    width: 500px;
+    padding: 30px;
+    border:1px solid #ccc;
+    margin-left: 480px;
+    background-color: #fff;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.eu {
+    width: 910px;
+    margin-top: 20px; 
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #3b5998;
+    color: #fff;
+    font-size: 23px;
+    padding: 50px; 
+}
+
+
+.eu h1 {
+   margin-left: -20px;
+   margin-top: -290px;
+   font-size: 20px;
+
+}
+
+.eu p {
+    margin-top: -30px;
+    margin-left: 250px;
+}
+
+.eu img {
+    height: 230px;
+    width: 200px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
